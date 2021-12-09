@@ -1,0 +1,205 @@
+<!doctype html>
+<!-- More CSS Flexbox
+Using Flexbox as a Link
+Streaming Services v3
+-->
+<html>
+  <head>
+    <!-- Nonvisible elements in this section -->
+    <!-- CSS goes here in STYLE tags -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      header {
+        color: black;
+        background: aliceblue;
+        padding: 1rem;
+        text-align: center;
+      }
+      nav {
+        color: white;
+        background: grey;
+        padding: 1rem;
+      }
+      footer {
+        color: white;
+        background: gray;
+        padding: 2vh;
+        height: 10vh;
+      }
+      .container {
+        color: black;
+        background: aliceblue;
+        padding: 2vh;
+        min-height: 70vh;
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .box {
+        flex-basis: 40%;
+        text-align: center;
+        border-radius: 12px;
+        overflow: hidden;
+        background: aquamarine;
+        margin: 1rem;
+      }
+      .box-image {
+        height: 40vh;
+        background: black;
+        overflow: hidden;
+      }
+      .box-image img {
+        display: block;
+        height: 100%;
+        margin: auto;
+      }
+      .box h3 {
+        background: aquamarine;
+        color: black;
+        padding: .75rem;
+        font-size: 1.50rem;
+      }
+      .box p {
+        padding: 1rem;
+        font-size: 1.15rem;
+        background: white;
+      }
+      .box a {
+        color: black;
+        text-decoration: none;
+      }
+      .box:hover {
+        box-shadow: 0px -10px 5px 7px rgba(0,0,0,0.3);
+      }
+      
+      
+      
+    </style>
+    <!-- title tage for browser tab text -->
+    <title>Module 8: Flexbox 2 (Streaming v3)</title>
+  </head>
+  <body>
+    <header>
+      <h1>Streaming v3</h1>
+      <p>
+        Abdul Shakib<br>
+        November 15, 2021<br>
+        Web 1, 4th hour
+      </p>
+    </header>
+    <nav>
+      Placeholder
+    </nav>
+    <div class="container">
+      <!-- Write assignment code here -->
+      
+      
+      
+    <!-- Start of a box here -->
+    <div class="box">
+      <a href="netflix.com" target="blank">
+        <div class="box-image">
+          <img src="https://www.denofgeek.com/wp-content/uploads/2020/08/Netflix-logo.png?fit=1200%2C675" alt="Netflix Logo">
+        </div>
+        <h3>Netflix</h3>
+        <p>
+          Netflix has access to more movies and tv series than most other streaming services. It personalizes recommandations based on my preferences. Whenever I look for any tv series or movies, I easily find them in Netflix.
+        </p>
+      </a>
+    </div>
+    <!-- End of box -->
+    
+    
+    <!-- Start of a box here -->
+    <div class="box">
+      <a href="chrunchyroll.com" target="blank">
+        <div class="box-image">
+          <img src="https://www.gameinformer.com/sites/default/files/styles/thumbnail/public/2020/12/10/5eaf0150/crunchyroll_main.jpg" alt="Chruncyroll Logo">
+        </div>
+        <h3>Chrunchyroll</h3>
+        <p>
+          Chrunchyroll has the most anime collection of any other streaming sevices. You can discover new animes all the time in chrunchyroll. It even has a free version for those who don't want to pay.
+        </p>
+      </a>
+    </div>
+    <!-- End of box -->
+    
+    
+    <!-- Start of a box here -->
+    <div class="box">
+      <a href="tubitv.com" target="blank">
+        <div class="box-image">
+          <img src="https://www.groundedreason.com/wp-content/uploads/2019/06/Tubi_Free_Movies_and_Tv.jpg" alt="Tubi TV Logo">
+        </div>
+        <h3>Tubi TV</h3>
+        <p>
+          Tubi TV is a free streaming service platform. Tubi TV doesn't have most of the new movies and TV Shows coming out, so that could be dissappointing. Although, they have quite a popular collection whih is much more impressive than it sounds.
+        </p>
+      </a>
+    </div>
+    <!-- End of box -->
+    
+    
+    <!-- Start of a box here -->
+    <div class="box">
+      <a href="youtube.com" target="blank">
+        <div class="box-image">
+          <img src="https://betanews.com/wp-content/uploads/2017/08/new-youtube-logo.jpg" alt="Youtube Logo">
+        </div>
+        <h3>Youtube</h3>
+        <p>
+          Youtube is the world's biggest video streaming platform. Not only is it free, but Youtube works with all devices and browsers making it useful everywhere. It is filled with entertainment and infotainment videos.
+        </p>
+      </a>
+    </div>
+    <!-- End of box -->
+    
+    
+    <!-- Start of a box here -->
+    <div class="box">
+      <a href="https://www.roku.com/whats-on/the-roku-channel" target="blank">
+        <div class="box-image">
+          <img src="https://image.roku.com/w/rapid/images/meta-image/e3d17889-1621-4511-a6e1-9ec1b8f16ee5.png" alt="Roku TV Logo">
+        </div>
+        <h3>Roku TV</h3>
+        <p>
+          Roku TV connects with other streaming services to find users free and paid shows and movies to watch. The TV has its own channel called The Roku Channel. The Channel has many free timelessly popular videos of old and new timeline.
+        </p>
+      </a>
+    </div>
+    <!-- End of box -->
+    
+    
+    <!-- Start of a box here -->
+    <div class="box">
+      <a href="funimation.com" target="blank">
+        <div class="box-image">
+          <img src="https://i.pcmag.com/imagery/reviews/07kBzy3r1yWbSGtvito386K-7.fit_lim.size_1200x630.v1569472561.png" alt="Funimation Logo">
+        </div>
+        <h3>Funimation</h3>
+        <p>
+          It's another anime streaming platform. It's similar to Chruncyroll, but it has different collections of animes that Chruncyroll doesn't have. It has paid and free versions.
+        </p>
+      </a>
+    </div>
+    <!-- End of box -->
+    
+    
+    
+    </div><!-- Closing tag for container -->
+    <footer>
+      Footer
+    </footer>
+    
+    
+    
+    <!-- Don't delete these but do paste them -->
+  </body>
+</html>
